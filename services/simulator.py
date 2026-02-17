@@ -8,7 +8,7 @@ import os
 from datetime import datetime, timezone
 
 TARGET_HOST = "localhost"
-TARGET_PORT = 2222
+TARGET_PORT = "Target_port"
 COWRIE_LOG_PATH = "/home/adi/cowrie/var/log/cowrie/cowrie.json"
 
 USERNAMES = ["root", "admin", "test", "user"]

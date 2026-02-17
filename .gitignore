@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+venv/
+env/
+
+# Logs
+*.log
+logs/
+
+# Data
+data/raw/
+data/processed/*.csv
+!data/processed/.gitkeep
+*.csv
+*.db
+*.sqlite3
+
+# Models
+models/*.pkl
+models/*.h5
+models/*.pt
+models/*.onnx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Sensitive / Temporary
+cowrie.json
+evaluation.csv
+
+# macOS
+.DS_Store
